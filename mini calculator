@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int a, b;
+	int product, sum, quotient, difference;
+	cout << "Enter a number: \n";
+	cin >> a;
+	cout << "Enter another nuumber: \n";
+	cin >> b;
+	product = a * b, sum = a + b, difference = a - b, quotient = a / b;
+	cout << "Product: " << product << endl;
+	cout << "Sum: " << sum << endl; 
+	cout << "Difference: " << difference << endl;
+	cout << "Quotient: " << quotient << endl;
+	
+	return 0;
+}
